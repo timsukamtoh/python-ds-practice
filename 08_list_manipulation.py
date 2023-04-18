@@ -51,5 +51,5 @@ def list_manipulation(lst, command, location, value=None):
         if location == "beginning":
             return lst.pop(0)
         elif location == "end":
-            return lst.pop(-1)
-    return None
+            return lst.pop()
+
